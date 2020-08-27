@@ -6,6 +6,10 @@ var facebook = document.getElementById('facebook');
 var tube = document.getElementById('tube');
 var twitter = document.getElementById('twitter');
 
+
+var card = document.getElementById('card');
+
+var content = document.getElementsByClassName("content")
 var main = document.body;
 
 toggle.addEventListener('click', () => {
@@ -19,6 +23,15 @@ toggle.addEventListener('click', () => {
         tube.style.backgroundColor = 'hsl(228, 28%, 20%)'
         header.style.backgroundColor = 'hsl(232, 19%, 15%)'
 
+        var x = document.querySelectorAll("#card");
+
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.backgroundColor = "hsl(228, 28%, 20%)";
+        }
+
+
+
     } else {
         main.style.color = 'hsl(230, 17%, 14%)'
         main.style.backgroundColor = 'white'
@@ -27,5 +40,11 @@ toggle.addEventListener('click', () => {
         facebook.style.backgroundColor = 'hsl(227, 47%, 96%)'
         twitter.style.backgroundColor = 'hsl(227, 47%, 96%)'
         tube.style.backgroundColor = 'hsl(227, 47%, 96%)'
+        var x = document.querySelectorAll("#card");
+
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.backgroundColor = "hsl(227, 47%, 96%)";
+        }
     }
 })

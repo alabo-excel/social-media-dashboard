@@ -1,78 +1,76 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
-    max-width: 100%;
-    color: hsl(230, 17%, 14%);
-}
-
-img {
-    height: 25px;
-    margin-right: 5px;
-}
-
-#header {
-    background-color: hsl(225, 100%, 98%);
-    height: 35vh;
-}
-
-.row {
-    margin-right: 0px!important;
-    margin-left: 0px!important;
-}
-
-#row {
-    margin-top: -130px;
-}
-
-#green {
-    color: hsl(163, 72%, 41%);
-}
-
-#red {
-    color: hsl(348, 97%, 39%);
-}
-
-h1 {
-    font-size: 60px!important;
-    font-weight: 700;
-}
-
-#card {
-    background-color: hsl(227, 47%, 96%);
-    border-radius: 5px;
-}
-
-#facebook {
-    border-top: 3px solid hsl(208, 92%, 53%);
-    background-color: hsl(227, 47%, 96%);
-    border-radius: 5px;
-}
-
-#twitter {
-    border-top: 3px solid hsl(203, 89%, 53%);
-    background-color: hsl(227, 47%, 96%);
-    border-radius: 5px;
-}
-
-#insta {
-    border-top: 3px solid hsl(329, 70%, 58%);
-    background-color: hsl(227, 47%, 96%);
-    border-radius: 5px;
-}
-
-#tube {
-    border-top: 3px solid hsl(348, 97%, 39%);
-    background-color: hsl(227, 47%, 96%);
-    border-radius: 5px;
-}
-
-
-/* 
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        color: hsl(230, 17%, 14%);
+    }
+    
+    img {
+        height: 25px;
+        margin-right: 5px;
+    }
+    
+    #header {
+        background-color: hsl(225, 100%, 98%);
+        height: 35vh;
+    }
+    
+    .row {
+        margin-right: 0px!important;
+        margin-left: 0px!important;
+    }
+    
+    #row {
+        margin-top: -130px;
+    }
+    
+    #green {
+        color: hsl(163, 72%, 41%);
+    }
+    
+    #red {
+        color: hsl(348, 97%, 39%);
+    }
+    
+    h1 {
+        font-size: 60px!important;
+        font-weight: 700;
+    }
+    
+    #card {
+        background-color: hsl(227, 47%, 96%);
+        border-radius: 5px;
+    }
+    
+    #facebook {
+        border-top: 3px solid hsl(208, 92%, 53%);
+        background-color: hsl(227, 47%, 96%);
+        border-radius: 5px;
+    }
+    
+    #twitter {
+        border-top: 3px solid hsl(203, 89%, 53%);
+        background-color: hsl(227, 47%, 96%);
+        border-radius: 5px;
+    }
+    
+    #insta {
+        border-top: 3px solid hsl(329, 70%, 58%);
+        background-color: hsl(227, 47%, 96%);
+        border-radius: 5px;
+    }
+    
+    #tube {
+        border-top: 3px solid hsl(348, 97%, 39%);
+        background-color: hsl(227, 47%, 96%);
+        border-radius: 5px;
+    }
+    /* 
 @media(max-width: 500px) {
     #toggle {
         width: 100%;
